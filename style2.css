@@ -8,6 +8,7 @@
 
 body{
     background-color: rgb(2, 2, 32);
+    color: rgb(247, 236, 236);
 }
 
 .header{
@@ -35,4 +36,81 @@ body{
 
 .navbar a:hover{
     color: yellow;
+}
+
+#home{
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+    align-items: center;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 20px;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 1.5;
+}
+
+.content h3{
+    color: aqua;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.content p{
+    margin: 20px 0 40px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.btn a{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.btn a:nth-child(2){
+    background-color: transparent;
+    color: aqua;
+    margin-left: 15px;
+}
+
+.social-icon{
+    position: absolute;
+    bottom: 30px;
+    background: transparent;
+}
+
+.social-icon a{
+    display: inline-flex;
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
 }
