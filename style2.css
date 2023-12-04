@@ -114,3 +114,48 @@ body{
     align-items: center;
     margin-left: 10px;
 }
+
+#contact{
+    background-color: whitesmoke;
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form{
+    background-color: #36454F;
+    height: 500px;
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 70px;
+    box-shadow: 0 0 20px 0 rgb(40, 41, 41);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.input-field{
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+.textarea-field{
+    height: 150px;
+}
+
+.btn-submit{
+    background-color: green;
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    font-size: 15px;
+    /* height: 30px; */
+    padding: 10px;
+    margin-top: 5px;
+}
